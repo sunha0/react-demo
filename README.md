@@ -1,3 +1,18 @@
+# 安装npm
+install npm
+# 安装react脚手架
+npm install -g create-react-app
+# create-react-app ：无法加载文件 C:\Users\Administrator\AppData\Roaming\npm\create-react-app.ps1，因为在此系统上禁止运行
+# 如果出现以上报错，解决方法：Windos PowerShell 并且以右键管理员身份运行，输入set-ExecutionPolicy RemoteSigned，并且把权限改权限为A
+
+# 创建react 项目
+create-react-app react-demo
+# 运行项目
+cd react-demo
+npm start
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
